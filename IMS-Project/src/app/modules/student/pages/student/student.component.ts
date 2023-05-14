@@ -1,8 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { NgbNavChangeEvent } from '@ng-bootstrap/ng-bootstrap';
-import { StudentTabTypes } from 'src/app/shared/constants/student';
-import { StudentTab } from 'src/app/shared/models/student';
 
 @Component({
   selector: 'app-student',
@@ -11,6 +7,7 @@ import { StudentTab } from 'src/app/shared/models/student';
 })
 export class StudentComponent {
 
+<<<<<<< HEAD
   activeId = StudentTabTypes.MYPROFILE;
   activeTab?: StudentTab;
   readonly studentTabTypes: typeof StudentTabTypes = StudentTabTypes
@@ -86,4 +83,6 @@ export class StudentComponent {
 
 
 
+=======
+>>>>>>> parent of 6f8c16a (Student tabs)
 }

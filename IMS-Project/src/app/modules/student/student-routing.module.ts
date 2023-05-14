@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from 'src/app/shared/components/header/header.component';
+<<<<<<< HEAD
 import { AchievementsComponent } from './components/achievements/achievements.component';
 import { MarksComponent } from './components/marks/marks.component';
 import { MyAttendanceComponent } from './components/my-attendance/my-attendance.component';
 import { MyProfileComponent } from './components/my-profile/my-profile.component';
+=======
+>>>>>>> parent of 6f8c16a (Student tabs)
 import { StudentComponent } from './pages/student/student.component';
 
 const routes: Routes = [
@@ -15,6 +18,7 @@ const routes: Routes = [
   },
   {
     path: '',
+<<<<<<< HEAD
     component: StudentComponent,
     children:[
       {
@@ -39,8 +43,14 @@ const routes: Routes = [
         component: MyProfileComponent
       }
     ]
+=======
+    component: StudentComponent
+>>>>>>> parent of 6f8c16a (Student tabs)
   },
- 
+  // {
+  //   path: 'marks',
+  //   component: StudentComponent
+  // }
 ];
 
 @NgModule({
